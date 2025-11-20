@@ -7,10 +7,10 @@ import { RootProps } from "@/types/global-props";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Taxi Company',
-    default: 'Taxi Company'
+    template: '%s | QuickRide Taxi',
+    default: 'QuickRide Taxi - Reliable Transportation Service 24/7'
   },
-  description: "Your Towns number one transport provider, Available 24 hours a day",
+  description: "Professional taxi service available 24/7. Airport transfers, city rides, corporate transportation, and more. Safe, comfortable, and affordable rides.",
 };
 
 export default function RootLayout({ children }: RootProps) {
